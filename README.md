@@ -12,12 +12,18 @@ Identify trends in incident resolution times, financial losses, and vulnerabilit
 Visualize key insights through charts and a Matrix-style digital rain animation.
 
 Repository Structure
-├── data/                 # Original CSV dataset
-├── scripts/              # Python scripts for analysis and visualization
-│   ├── cybersecurity_analytics.py  # SQL + Python workflow & plots
-│   └── matrix_animation.py         # Matrix-style animation using data
-├── results/              # Generated plots and outputs
-└── README.md             # Project overview and instructions
+
+data/ – Original CSV dataset
+
+scripts/ – Python scripts for analysis and visualization
+
+cybersecurity_analytics.py – SQL + Python workflow & plots
+
+matrix_animation.py – Matrix-style animation using data
+
+results/ – Generated plots and outputs
+
+README.md – Project overview and instructions
 
 Workflow
 
@@ -58,36 +64,3 @@ Used pygame to create a digital rain effect.
 Animated Number_of_Affected_Users from the dataset along with alphanumeric characters.
 
 Title “Cybersecurity Matrix” displayed at the top for context.
-
-How to Run
-
-Clone the repository:
-
-git clone https://github.com/yourusername/matrix-cybersecurity.git
-
-
-Install required packages:
-
-pip install pandas matplotlib seaborn pyodbc pygame
-
-
-Update file paths in cybersecurity_analytics.py and matrix_animation.py as needed.
-
-Run scripts:
-
-python cybersecurity_analytics.py   # Generates plots from SQL queries
-python matrix_animation.py          # Launches Matrix-style animation
-
-Key Learnings
-
-Hands-on experience integrating SQL queries with Python for data analysis.
-
-Learned to visualize data effectively using multiple chart types.
-
-Explored creative ways to present data through animations.
-
-Developed a full end-to-end workflow: data → analysis → visualization → interactive presentation.
-
-Notes
-
-All scripts and outputs are included in a single commit for simplicity.
